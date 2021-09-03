@@ -9,14 +9,14 @@ declare interface NavigatorUA {
 }
 
 // https://wicg.github.io/ua-client-hints/#dictdef-navigatoruabrandversion
-interface NavigatorUADataBrandVersion {
+interface NavigatorUABrandVersion {
     readonly brand: string;
     readonly version: string;
 }
 
 // https://wicg.github.io/ua-client-hints/#dictdef-uadatavalues
 interface UADataValues {
-    readonly brands?: NavigatorUADataBrandVersion[];
+    readonly brands?: NavigatorUABrandVersion[];
     readonly mobile?: boolean;
     readonly platform?: string;
     readonly architecture?: string;
@@ -28,7 +28,7 @@ interface UADataValues {
 
 // https://wicg.github.io/ua-client-hints/#dictdef-ualowentropyjson
 interface UALowEntropyJSON {
-    readonly brands: NavigatorUADataBrandVersion[];
+    readonly brands: NavigatorUABrandVersion[];
     readonly mobile: boolean;
     readonly platform: string;
 }
