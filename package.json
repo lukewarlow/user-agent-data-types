@@ -1,0 +1,16 @@
+{
+  "name": "user-agent-data-types",
+  "version": "0.1.0",
+  "description": "Type definition for navigator.userAgentData",
+  "keywords": [
+    "user-agent",
+    "user-agent-data",
+    "userAgentData",
+    "TypeScript",
+    "types"
+  ],
+  "repository": "https://github.com/lukewarlow/user-agent-data-types.git",
+  "types": "index.d.ts",
+  "author": "Luke Warlow",
+  "license": "MIT"
+}
