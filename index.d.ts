@@ -23,7 +23,8 @@ interface UADataValues {
     readonly bitness?: string;
     readonly model?: string;
     readonly platformVersion?: string;
-    readonly uaFullVersion?: string;
+    readonly uaFullVersion?: string; // Deprecated in favor of fullVersionList
+    readonly fullVersionList?: NavigatorUABrandVersion[];
 }
 
 // https://wicg.github.io/ua-client-hints/#dictdef-ualowentropyjson
