@@ -1,6 +1,6 @@
 {
   "name": "user-agent-data-types",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "description": "Type definition for navigator.userAgentData",
   "keywords": [
     "user-agent",

@@ -21,7 +21,7 @@ interface UADataValues {
     readonly platform?: string;
     readonly architecture?: string;
     readonly bitness?: string;
-    readonly formFactor?: string;
+    readonly formFactor?: string[];
     readonly model?: string;
     readonly platformVersion?: string;
     /** @deprecated in favour of fullVersionList */
